@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Packager
+Bundle-SymbolicName: io.vasilenko.devstudio.packager;singleton:=true
+Bundle-Version: 1.0
+Bundle-Activator: io.vasilenko.devstudio.packager.PackagerPlugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.bmc.arsys.studio.commonui,
+ com.bmc.arsys.studio.model,
+ com.bmc.arsys.studio.ui,
+ com.bmc.arsys.studio.api
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: Sergey Vasilenko
